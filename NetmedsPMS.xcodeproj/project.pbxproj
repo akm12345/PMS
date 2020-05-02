@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		04763A23245D930B00569115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A22245D930B00569115 /* AppDelegate.swift */; };
 		04763A25245D930B00569115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A24245D930B00569115 /* SceneDelegate.swift */; };
-		04763A27245D930B00569115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A26245D930B00569115 /* ViewController.swift */; };
 		04763A2A245D930B00569115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04763A28245D930B00569115 /* Main.storyboard */; };
 		04763A2C245D930C00569115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04763A2B245D930C00569115 /* Assets.xcassets */; };
 		04763A2F245D930C00569115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04763A2D245D930C00569115 /* LaunchScreen.storyboard */; };
 		04763A3A245D930D00569115 /* NetmedsPMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A39245D930D00569115 /* NetmedsPMSTests.swift */; };
 		04763A45245D930D00569115 /* NetmedsPMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A44245D930D00569115 /* NetmedsPMSUITests.swift */; };
+		04763A5A245DADCE00569115 /* NMCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A59245DADCE00569115 /* NMCalendarViewController.swift */; };
+		04763A5C245DADF100569115 /* NMAddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A5B245DADF100569115 /* NMAddPatientViewController.swift */; };
+		04763A5E245DAE1F00569115 /* NMPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */; };
+		04763A60245DAE4700569115 /* NMAddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A5F245DAE4700569115 /* NMAddAppointmentViewController.swift */; };
+		04763A62245DAEF600569115 /* NMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A61245DAEF600569115 /* NMBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		04763A1F245D930B00569115 /* NetmedsPMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmedsPMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04763A22245D930B00569115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04763A24245D930B00569115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04763A26245D930B00569115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04763A29245D930B00569115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04763A2B245D930C00569115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04763A2E245D930C00569115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		04763A40245D930D00569115 /* NetmedsPMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetmedsPMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04763A44245D930D00569115 /* NetmedsPMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetmedsPMSUITests.swift; sourceTree = "<group>"; };
 		04763A46245D930D00569115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04763A59245DADCE00569115 /* NMCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMCalendarViewController.swift; sourceTree = "<group>"; };
+		04763A5B245DADF100569115 /* NMAddPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMAddPatientViewController.swift; sourceTree = "<group>"; };
+		04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMPatientsViewController.swift; sourceTree = "<group>"; };
+		04763A5F245DAE4700569115 /* NMAddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMAddAppointmentViewController.swift; sourceTree = "<group>"; };
+		04763A61245DAEF600569115 /* NMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,13 @@
 		04763A21245D930B00569115 /* NetmedsPMS */ = {
 			isa = PBXGroup;
 			children = (
-				04763A22245D930B00569115 /* AppDelegate.swift */,
-				04763A24245D930B00569115 /* SceneDelegate.swift */,
-				04763A26245D930B00569115 /* ViewController.swift */,
-				04763A28245D930B00569115 /* Main.storyboard */,
+				04763A52245DAA3800569115 /* App */,
+				04763A53245DAA3E00569115 /* Models */,
+				04763A54245DAA4500569115 /* Views */,
+				04763A55245DAA4D00569115 /* ViewControllers */,
+				04763A57245DAA6F00569115 /* Extensions */,
+				04763A56245DAA5900569115 /* Utility */,
+				04763A58245DAA9E00569115 /* Storyboards */,
 				04763A2B245D930C00569115 /* Assets.xcassets */,
 				04763A2D245D930C00569115 /* LaunchScreen.storyboard */,
 				04763A30245D930D00569115 /* Info.plist */,
@@ -126,6 +137,63 @@
 				04763A46245D930D00569115 /* Info.plist */,
 			);
 			path = NetmedsPMSUITests;
+			sourceTree = "<group>";
+		};
+		04763A52245DAA3800569115 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04763A22245D930B00569115 /* AppDelegate.swift */,
+				04763A24245D930B00569115 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04763A53245DAA3E00569115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04763A54245DAA4500569115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04763A55245DAA4D00569115 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04763A61245DAEF600569115 /* NMBaseViewController.swift */,
+				04763A59245DADCE00569115 /* NMCalendarViewController.swift */,
+				04763A5B245DADF100569115 /* NMAddPatientViewController.swift */,
+				04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */,
+				04763A5F245DAE4700569115 /* NMAddAppointmentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04763A56245DAA5900569115 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		04763A57245DAA6F00569115 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04763A58245DAA9E00569115 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04763A28245D930B00569115 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04763A27245D930B00569115 /* ViewController.swift in Sources */,
 				04763A23245D930B00569115 /* AppDelegate.swift in Sources */,
+				04763A62245DAEF600569115 /* NMBaseViewController.swift in Sources */,
 				04763A25245D930B00569115 /* SceneDelegate.swift in Sources */,
+				04763A5C245DADF100569115 /* NMAddPatientViewController.swift in Sources */,
+				04763A60245DAE4700569115 /* NMAddAppointmentViewController.swift in Sources */,
+				04763A5A245DADCE00569115 /* NMCalendarViewController.swift in Sources */,
+				04763A5E245DAE1F00569115 /* NMPatientsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rmf-1J-voo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NetmedsPMS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TOO-et-Zh5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="118"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="HHv-nF-5Sv">
+            <objects>
+                <viewController id="mc5-Yh-deD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Lt-FU-5Cc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Uh1-H2-uzY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="LC4-07-VbT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPL-5j-A1b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="828"/>
+        </scene>
+        <!--Patents-->
+        <scene sceneID="Hbt-Ft-6WQ">
+            <objects>
+                <viewController id="oY2-51-sEE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TGV-vp-QG9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MVK-ia-A4z"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Patents" image="person.circle" catalog="system" id="7ft-zY-0gk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZS4-TV-UYf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="828"/>
+        </scene>
+        <!--Add Patent-->
+        <scene sceneID="fg1-nH-7Zn">
+            <objects>
+                <viewController id="FTi-xz-Gbu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fY2-DX-qqj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RTA-2X-cgt"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Add Patent" image="person.badge.plus" catalog="system" id="tij-v9-ANb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBe-Dm-dPb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407" y="828"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aVE-6G-mL2">
+            <objects>
+                <tabBarController id="pFp-pG-daU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vk7-nt-o5u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oY2-51-sEE" kind="relationship" relationship="viewControllers" id="pA4-gu-hKH"/>
+                        <segue destination="mc5-Yh-deD" kind="relationship" relationship="viewControllers" id="jPW-ez-YXM"/>
+                        <segue destination="FTi-xz-Gbu" kind="relationship" relationship="viewControllers" id="AZJ-io-DrA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2yj-Xi-FUH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1704" y="117"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nIc-QU-KFg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rmf-1J-voo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fCO-qA-tYG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0Px-76-iBD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nfc-wu-O5h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="64" height="54"/>
+        <image name="person.badge.plus" catalog="system" width="64" height="58"/>
+        <image name="person.circle" catalog="system" width="64" height="62"/>
+    </resources>
+</document>
