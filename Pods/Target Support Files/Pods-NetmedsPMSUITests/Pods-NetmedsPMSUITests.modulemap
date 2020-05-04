@@ -1,0 +1,6 @@
+framework module Pods_NetmedsPMSUITests {
+  umbrella header "Pods-NetmedsPMSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

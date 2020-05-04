@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039DC2E779BB841D4770CD79 /* Pods_NetmedsPMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DC00E2317A23219ECC7D0 /* Pods_NetmedsPMS.framework */; };
+		04179D59245EA91E004D2BB8 /* CalendarTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D58245EA91E004D2BB8 /* CalendarTableCell.swift */; };
+		04179D5C245EAC5F004D2BB8 /* BasicAppointmentDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D5B245EAC5F004D2BB8 /* BasicAppointmentDetailCell.swift */; };
+		04179D5E245EAD75004D2BB8 /* CommonAppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D5D245EAD75004D2BB8 /* CommonAppointmentCell.swift */; };
+		04179D60245EAE2F004D2BB8 /* AppointmentDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D5F245EAE2F004D2BB8 /* AppointmentDescriptionCell.swift */; };
+		04179D62245EAEF6004D2BB8 /* AppointmentBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D61245EAEF6004D2BB8 /* AppointmentBookingCell.swift */; };
+		04179D64245EB065004D2BB8 /* AppointmentNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D63245EB065004D2BB8 /* AppointmentNotificationCell.swift */; };
+		04179D66245ECD14004D2BB8 /* PatientDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D65245ECD14004D2BB8 /* PatientDetail.swift */; };
+		04179D68245F500F004D2BB8 /* NMDatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D67245F500F004D2BB8 /* NMDatabaseController.swift */; };
+		04179D6A245F8B60004D2BB8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D69245F8B60004D2BB8 /* Utility.swift */; };
 		04763A23245D930B00569115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A22245D930B00569115 /* AppDelegate.swift */; };
 		04763A25245D930B00569115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A24245D930B00569115 /* SceneDelegate.swift */; };
 		04763A2A245D930B00569115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04763A28245D930B00569115 /* Main.storyboard */; };
@@ -19,6 +29,17 @@
 		04763A5E245DAE1F00569115 /* NMPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */; };
 		04763A60245DAE4700569115 /* NMAddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A5F245DAE4700569115 /* NMAddAppointmentViewController.swift */; };
 		04763A62245DAEF600569115 /* NMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A61245DAEF600569115 /* NMBaseViewController.swift */; };
+		04763A66245DDDB000569115 /* FMDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A65245DDDB000569115 /* FMDatabase.swift */; };
+		04763A68245DEA1D00569115 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A67245DEA1D00569115 /* Extensions.swift */; };
+		04763A6A245DF48400569115 /* NMLocalMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A69245DF48400569115 /* NMLocalMessages.swift */; };
+		04763A6C245DF4E000569115 /* NMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A6B245DF4E000569115 /* NMConstants.swift */; };
+		04763A70245DF5F200569115 /* PatientPrimaryInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A6F245DF5F200569115 /* PatientPrimaryInfoCell.swift */; };
+		04763A72245DF63700569115 /* PatientDOBAndAgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A71245DF63700569115 /* PatientDOBAndAgeCell.swift */; };
+		04763A75245DF6A500569115 /* CommonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A74245DF6A500569115 /* CommonTableCell.swift */; };
+		04763A77245E018B00569115 /* NMHomeTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A76245E018B00569115 /* NMHomeTabbarController.swift */; };
+		04763A7A245E1F1C00569115 /* PatientsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763A79245E1F1C00569115 /* PatientsTableCell.swift */; };
+		7EEF816E97657944345AF877 /* Pods_NetmedsPMSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3C48A5CC16641C693AAE38 /* Pods_NetmedsPMSUITests.framework */; };
+		FEA0062CB41C26E2892F3B7B /* Pods_NetmedsPMSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59C8B61915E4512CFEE077C /* Pods_NetmedsPMSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04179D58245EA91E004D2BB8 /* CalendarTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableCell.swift; sourceTree = "<group>"; };
+		04179D5B245EAC5F004D2BB8 /* BasicAppointmentDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAppointmentDetailCell.swift; sourceTree = "<group>"; };
+		04179D5D245EAD75004D2BB8 /* CommonAppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAppointmentCell.swift; sourceTree = "<group>"; };
+		04179D5F245EAE2F004D2BB8 /* AppointmentDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDescriptionCell.swift; sourceTree = "<group>"; };
+		04179D61245EAEF6004D2BB8 /* AppointmentBookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentBookingCell.swift; sourceTree = "<group>"; };
+		04179D63245EB065004D2BB8 /* AppointmentNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentNotificationCell.swift; sourceTree = "<group>"; };
+		04179D65245ECD14004D2BB8 /* PatientDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetail.swift; sourceTree = "<group>"; };
+		04179D67245F500F004D2BB8 /* NMDatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMDatabaseController.swift; sourceTree = "<group>"; };
+		04179D69245F8B60004D2BB8 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		04763A1F245D930B00569115 /* NetmedsPMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmedsPMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04763A22245D930B00569115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04763A24245D930B00569115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +87,24 @@
 		04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMPatientsViewController.swift; sourceTree = "<group>"; };
 		04763A5F245DAE4700569115 /* NMAddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMAddAppointmentViewController.swift; sourceTree = "<group>"; };
 		04763A61245DAEF600569115 /* NMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMBaseViewController.swift; sourceTree = "<group>"; };
+		04763A65245DDDB000569115 /* FMDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDatabase.swift; sourceTree = "<group>"; };
+		04763A67245DEA1D00569115 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04763A69245DF48400569115 /* NMLocalMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMLocalMessages.swift; sourceTree = "<group>"; };
+		04763A6B245DF4E000569115 /* NMConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMConstants.swift; sourceTree = "<group>"; };
+		04763A6F245DF5F200569115 /* PatientPrimaryInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPrimaryInfoCell.swift; sourceTree = "<group>"; };
+		04763A71245DF63700569115 /* PatientDOBAndAgeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDOBAndAgeCell.swift; sourceTree = "<group>"; };
+		04763A74245DF6A500569115 /* CommonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableCell.swift; sourceTree = "<group>"; };
+		04763A76245E018B00569115 /* NMHomeTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMHomeTabbarController.swift; sourceTree = "<group>"; };
+		04763A79245E1F1C00569115 /* PatientsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsTableCell.swift; sourceTree = "<group>"; };
+		31B0F060DE4FC84118AE16E5 /* Pods-NetmedsPMSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMSTests/Pods-NetmedsPMSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6265D1458A2C6F2C039F7D20 /* Pods-NetmedsPMSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMSTests/Pods-NetmedsPMSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68D4D7AB9082FAFB52E4E77 /* Pods-NetmedsPMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMS/Pods-NetmedsPMS.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7CC39B76C0A3C6AAD2AE75 /* Pods-NetmedsPMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMS/Pods-NetmedsPMS.release.xcconfig"; sourceTree = "<group>"; };
+		BE3C48A5CC16641C693AAE38 /* Pods_NetmedsPMSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmedsPMSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33E93588AE80035619DA7D2 /* Pods-NetmedsPMSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMSUITests/Pods-NetmedsPMSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27DC00E2317A23219ECC7D0 /* Pods_NetmedsPMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmedsPMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6F77E55053840EB6D75E30 /* Pods-NetmedsPMSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetmedsPMSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetmedsPMSUITests/Pods-NetmedsPMSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E59C8B61915E4512CFEE077C /* Pods_NetmedsPMSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetmedsPMSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039DC2E779BB841D4770CD79 /* Pods_NetmedsPMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA0062CB41C26E2892F3B7B /* Pods_NetmedsPMSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +128,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEF816E97657944345AF877 /* Pods_NetmedsPMSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04179D57245EA8D6004D2BB8 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				04179D58245EA91E004D2BB8 /* CalendarTableCell.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		04179D5A245EAC04004D2BB8 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				04179D5B245EAC5F004D2BB8 /* BasicAppointmentDetailCell.swift */,
+				04179D5D245EAD75004D2BB8 /* CommonAppointmentCell.swift */,
+				04179D5F245EAE2F004D2BB8 /* AppointmentDescriptionCell.swift */,
+				04179D61245EAEF6004D2BB8 /* AppointmentBookingCell.swift */,
+				04179D63245EB065004D2BB8 /* AppointmentNotificationCell.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
 		04763A16245D930A00569115 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +162,8 @@
 				04763A38245D930D00569115 /* NetmedsPMSTests */,
 				04763A43245D930D00569115 /* NetmedsPMSUITests */,
 				04763A20245D930B00569115 /* Products */,
+				25AC369020426128EA9A8605 /* Pods */,
+				0D205E96291F25CA5F2E8CA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +186,7 @@
 				04763A55245DAA4D00569115 /* ViewControllers */,
 				04763A57245DAA6F00569115 /* Extensions */,
 				04763A56245DAA5900569115 /* Utility */,
+				04763A64245DBD4900569115 /* Database */,
 				04763A58245DAA9E00569115 /* Storyboards */,
 				04763A2B245D930C00569115 /* Assets.xcassets */,
 				04763A2D245D930C00569115 /* LaunchScreen.storyboard */,
@@ -151,6 +225,7 @@
 		04763A53245DAA3E00569115 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04179D65245ECD14004D2BB8 /* PatientDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +233,7 @@
 		04763A54245DAA4500569115 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04763A6D245DF53000569115 /* TableCells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				04763A61245DAEF600569115 /* NMBaseViewController.swift */,
+				04763A76245E018B00569115 /* NMHomeTabbarController.swift */,
 				04763A59245DADCE00569115 /* NMCalendarViewController.swift */,
 				04763A5B245DADF100569115 /* NMAddPatientViewController.swift */,
 				04763A5D245DAE1F00569115 /* NMPatientsViewController.swift */,
@@ -177,6 +254,9 @@
 		04763A56245DAA5900569115 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				04763A69245DF48400569115 /* NMLocalMessages.swift */,
+				04763A6B245DF4E000569115 /* NMConstants.swift */,
+				04179D69245F8B60004D2BB8 /* Utility.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -184,6 +264,7 @@
 		04763A57245DAA6F00569115 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				04763A67245DEA1D00569115 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,6 +277,75 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		04763A64245DBD4900569115 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				04763A65245DDDB000569115 /* FMDatabase.swift */,
+				04179D67245F500F004D2BB8 /* NMDatabaseController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		04763A6D245DF53000569115 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				04763A73245DF64500569115 /* Generic */,
+				04179D5A245EAC04004D2BB8 /* Appointment */,
+				04179D57245EA8D6004D2BB8 /* Calendar */,
+				04763A78245E1EF400569115 /* Patients */,
+				04763A6E245DF56F00569115 /* AddPatient */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		04763A6E245DF56F00569115 /* AddPatient */ = {
+			isa = PBXGroup;
+			children = (
+				04763A6F245DF5F200569115 /* PatientPrimaryInfoCell.swift */,
+				04763A71245DF63700569115 /* PatientDOBAndAgeCell.swift */,
+			);
+			path = AddPatient;
+			sourceTree = "<group>";
+		};
+		04763A73245DF64500569115 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				04763A74245DF6A500569115 /* CommonTableCell.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		04763A78245E1EF400569115 /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				04763A79245E1F1C00569115 /* PatientsTableCell.swift */,
+			);
+			path = Patients;
+			sourceTree = "<group>";
+		};
+		0D205E96291F25CA5F2E8CA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27DC00E2317A23219ECC7D0 /* Pods_NetmedsPMS.framework */,
+				E59C8B61915E4512CFEE077C /* Pods_NetmedsPMSTests.framework */,
+				BE3C48A5CC16641C693AAE38 /* Pods_NetmedsPMSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25AC369020426128EA9A8605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B68D4D7AB9082FAFB52E4E77 /* Pods-NetmedsPMS.debug.xcconfig */,
+				BD7CC39B76C0A3C6AAD2AE75 /* Pods-NetmedsPMS.release.xcconfig */,
+				6265D1458A2C6F2C039F7D20 /* Pods-NetmedsPMSTests.debug.xcconfig */,
+				31B0F060DE4FC84118AE16E5 /* Pods-NetmedsPMSTests.release.xcconfig */,
+				C33E93588AE80035619DA7D2 /* Pods-NetmedsPMSUITests.debug.xcconfig */,
+				DE6F77E55053840EB6D75E30 /* Pods-NetmedsPMSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,9 +353,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04763A49245D930D00569115 /* Build configuration list for PBXNativeTarget "NetmedsPMS" */;
 			buildPhases = (
+				1F20FB30C9C7AB519BA5583A /* [CP] Check Pods Manifest.lock */,
 				04763A1B245D930B00569115 /* Sources */,
 				04763A1C245D930B00569115 /* Frameworks */,
 				04763A1D245D930B00569115 /* Resources */,
+				A06EAE35FAAFC6E3C47EFBD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +372,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04763A4C245D930D00569115 /* Build configuration list for PBXNativeTarget "NetmedsPMSTests" */;
 			buildPhases = (
+				82AEF26174467CD63856DFC0 /* [CP] Check Pods Manifest.lock */,
 				04763A31245D930D00569115 /* Sources */,
 				04763A32245D930D00569115 /* Frameworks */,
 				04763A33245D930D00569115 /* Resources */,
@@ -238,6 +391,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04763A4F245D930D00569115 /* Build configuration list for PBXNativeTarget "NetmedsPMSUITests" */;
 			buildPhases = (
+				C9F5CB9E386CF23E3334FAB0 /* [CP] Check Pods Manifest.lock */,
 				04763A3C245D930D00569115 /* Sources */,
 				04763A3D245D930D00569115 /* Frameworks */,
 				04763A3E245D930D00569115 /* Resources */,
@@ -322,16 +476,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F20FB30C9C7AB519BA5583A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetmedsPMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AEF26174467CD63856DFC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetmedsPMSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06EAE35FAAFC6E3C47EFBD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetmedsPMS/Pods-NetmedsPMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetmedsPMS/Pods-NetmedsPMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F5CB9E386CF23E3334FAB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetmedsPMSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04763A1B245D930B00569115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04179D6A245F8B60004D2BB8 /* Utility.swift in Sources */,
+				04179D66245ECD14004D2BB8 /* PatientDetail.swift in Sources */,
+				04763A70245DF5F200569115 /* PatientPrimaryInfoCell.swift in Sources */,
+				04763A77245E018B00569115 /* NMHomeTabbarController.swift in Sources */,
+				04763A7A245E1F1C00569115 /* PatientsTableCell.swift in Sources */,
+				04763A75245DF6A500569115 /* CommonTableCell.swift in Sources */,
 				04763A23245D930B00569115 /* AppDelegate.swift in Sources */,
+				04763A6C245DF4E000569115 /* NMConstants.swift in Sources */,
+				04763A68245DEA1D00569115 /* Extensions.swift in Sources */,
 				04763A62245DAEF600569115 /* NMBaseViewController.swift in Sources */,
+				04179D68245F500F004D2BB8 /* NMDatabaseController.swift in Sources */,
 				04763A25245D930B00569115 /* SceneDelegate.swift in Sources */,
+				04179D59245EA91E004D2BB8 /* CalendarTableCell.swift in Sources */,
+				04179D5C245EAC5F004D2BB8 /* BasicAppointmentDetailCell.swift in Sources */,
+				04763A6A245DF48400569115 /* NMLocalMessages.swift in Sources */,
+				04763A72245DF63700569115 /* PatientDOBAndAgeCell.swift in Sources */,
+				04763A66245DDDB000569115 /* FMDatabase.swift in Sources */,
+				04179D64245EB065004D2BB8 /* AppointmentNotificationCell.swift in Sources */,
 				04763A5C245DADF100569115 /* NMAddPatientViewController.swift in Sources */,
 				04763A60245DAE4700569115 /* NMAddAppointmentViewController.swift in Sources */,
+				04179D62245EAEF6004D2BB8 /* AppointmentBookingCell.swift in Sources */,
+				04179D60245EAE2F004D2BB8 /* AppointmentDescriptionCell.swift in Sources */,
+				04179D5E245EAD75004D2BB8 /* CommonAppointmentCell.swift in Sources */,
 				04763A5A245DADCE00569115 /* NMCalendarViewController.swift in Sources */,
 				04763A5E245DAE1F00569115 /* NMPatientsViewController.swift in Sources */,
 			);
@@ -504,6 +771,7 @@
 		};
 		04763A4A245D930D00569115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68D4D7AB9082FAFB52E4E77 /* Pods-NetmedsPMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +789,7 @@
 		};
 		04763A4B245D930D00569115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7CC39B76C0A3C6AAD2AE75 /* Pods-NetmedsPMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +807,7 @@
 		};
 		04763A4D245D930D00569115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6265D1458A2C6F2C039F7D20 /* Pods-NetmedsPMSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -559,6 +829,7 @@
 		};
 		04763A4E245D930D00569115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B0F060DE4FC84118AE16E5 /* Pods-NetmedsPMSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +851,7 @@
 		};
 		04763A50245D930D00569115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33E93588AE80035619DA7D2 /* Pods-NetmedsPMSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +871,7 @@
 		};
 		04763A51245D930D00569115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6F77E55053840EB6D75E30 /* Pods-NetmedsPMSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

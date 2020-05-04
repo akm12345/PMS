@@ -3,7 +3,7 @@
 //  NetmedsPMSUITests
 //
 //  Created by Amal Mishra on 02/05/20.
-//  Copyright © 2020 Radhika. All rights reserved.
+//  Copyright © 2020 Amal Mishra. All rights reserved.
 //
 
 import XCTest
