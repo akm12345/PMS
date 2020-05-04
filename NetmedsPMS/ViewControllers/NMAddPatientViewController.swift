@@ -17,6 +17,13 @@ class NMAddPatientViewController: NMBaseViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
     @IBAction func doneButtonTapped(_ sender: Any) {
         getUpdatedValues()
         savePatientDetailsToDatabase()
@@ -42,7 +49,7 @@ class NMAddPatientViewController: NMBaseViewController {
         }
         
         let dobAndAgeCell: PatientDOBAndAgeCell = self.addPatientTableView.cellForRow(at: IndexPath(row: 1, section: 0)) as! PatientDOBAndAgeCell
-        if let age = dobAndAgeCell.patientAgeTextField.text, Utility.isValidAge(age: age){
+        if let age = dobAndAgeCell.patientAgeTextField.text, !Utility.isValidAge(age: age){
             showAlert(message: msgValidAge)
             return false
         }
@@ -93,9 +100,12 @@ class NMAddPatientViewController: NMBaseViewController {
     }
     
     @IBAction func refreshButtonTapped(_ sender: Any) {
+        //Todo:-
+        self.view.endEditing(true)
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
+        self.view.endEditing(true)
     }
     
     func savePatientInfoRecordsToDatabase() {
@@ -122,6 +132,11 @@ class NMAddPatientViewController: NMBaseViewController {
                                  patientdetails.email,
                                  patientdetails.language,]
         return values.count > 0 ? values : nil
+    }
+    
+    //End editing when user taps outside of textfield
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
 }
 
@@ -155,5 +170,22 @@ extension NMAddPatientViewController: UITableViewDataSource{
             return UITableViewCell()
         }
         return UITableViewCell()
+    }
+}
+
+//MARK:- keyboard avoiding
+extension NMAddPatientViewController{
+    @objc func keyboardWillShow(_ notification:Notification) {
+
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+            addPatientTableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardSize.height, right: 0)
+        }
+    }
+    
+    @objc func keyboardWillHide(_ notification:Notification) {
+
+        if ((notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue) != nil {
+            addPatientTableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        }
     }
 }

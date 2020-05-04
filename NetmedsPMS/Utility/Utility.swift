@@ -48,8 +48,7 @@ class Utility{
     
     static func isValidAge(age: String?) -> Bool{
         if age == nil {return false}
-        if age!.count <= 0 {return false}
-        let allowedDecimalCharacters = CharacterSet(charactersIn:"0123456789")
-        return allowedDecimalCharacters.isSuperset(of: CharacterSet(charactersIn: age!))
+        if age!.count == 0 {return false}
+        return kAllowedDecimalCharacters.isSuperset(of: CharacterSet(charactersIn: age!))
     }
 }

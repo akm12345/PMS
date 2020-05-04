@@ -39,24 +39,10 @@ class NMPatientsViewController: NMBaseViewController {
     
     func getPatientsListFromDatabase() {
         let table = TableNames.PatientInfo.rawValue
-//        let columnNames : [String] = [PatientInfoTableColums.firstName.rawValue,
-//                                      PatientInfoTableColums.middleName.rawValue,
-//                                      PatientInfoTableColums.lastName.rawValue,
-//                                      PatientInfoTableColums.imageUrl.rawValue,
-//                                      PatientInfoTableColums.contactNo.rawValue,
-//                                      PatientInfoTableColums.localId.rawValue
-//        ]
-//        FMDBDatabase.querySpecificColumns(columnNames: columnNames, on: table) { (success, fmresultSet, error) in
-//            if let error = error {
-//                showAlert(message: error.localizedDescription)
-//            }
-//        }
-        
         FMDBDatabase.query(on: table, where: nil) { (success, fmresult, error) in
             if let error = error {
                 showAlert(message: error.localizedDescription)
             }
-            
             if let fmresult = fmresult {
                 createPatientsModel(fmresult: fmresult)
             }
